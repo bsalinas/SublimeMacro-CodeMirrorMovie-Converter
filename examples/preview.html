@@ -1,0 +1,206 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="lib/cm-movie.css">
+<link rel="stylesheet" href="lib/codemirror.css">
+<script src="lib/codemirror.js"></script>
+<script src="lib/css.js"></script>
+<script src="lib/htmlmixed.js"></script>
+<script src="lib/javascript.js"></script>
+<script src="lib/xml.js"></script>
+<script src="lib/jquery-2.1.1.min.js"></script>
+<script src="lib/cm-movie-full.js"></script>
+<script>
+	$(document).ready(function(){
+	  // Create simple UI to interact with movie
+	    var movie = CodeMirror.movie('code');
+	    var delay;
+	    var thisUpdatePreview = function(){
+	        var previewFrame = document.getElementById('preview');
+	        var preview =  previewFrame.contentDocument ||  previewFrame.contentWindow.document;
+	        preview.open();
+	        preview.write(movie._editor.getValue());
+	        preview.close();
+	      }
+	    movie._editor.on("change", function() {
+	      clearTimeout(delay);
+	      delay = setTimeout(thisUpdatePreview, 300);
+	    });
+	    delay= setTimeout(thisUpdatePreview,300)
+	    
+	  $('a.btn.playBtn').click(function(e){
+	    e.preventDefault();
+	    console.log(movie)
+	    var btn = $(this);
+	    if (movie.state() == 'play') {
+	      movie.pause();
+	      btn.text('Play');
+	    } else {
+	      movie.play();
+	      btn.text('Pause');
+	    }
+	    movie.on('stop', function(name) {
+	      btn.text('Play')
+	    });
+	    
+	  });
+	});
+
+</script>
+</head>
+<body>
+	<div class="code-example">
+		<div class="title">
+			<h3>Example CodeMirror Movie</h3>
+			<a class="btn playBtn" href="#">Play</a>
+		</div>
+<textarea id="code" class="code" name="code">
+<!doctype html>
+<html lang="en">
+<head>
+<style>
+
+</style>
+</head>
+<body>
+    |
+</body>
+</html>
+@@@
+type: {"text":"<ul>"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"</ul>"}
+run: {"command":"goLineUp"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"<li>"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"<div class=\"\""}
+run: {"command":"goCharLeft"}
+type: {"text":"large"}
+run: {"command":"goCharRight"}
+type: {"text":">$3.19</div>\n"}
+run: {"command":"indentAuto"}
+type: {"text":"<div class=\"\""}
+run: {"command":"goCharLeft"}
+type: {"text":"small"}
+run: {"command":"goCharRight"}
+type: {"text":">$"}
+run: {"command":"delCharBefore"}
+type: {"text":"Regular</div>"}
+run: {"command":"newlineAndIndent"}
+run: {"command":"delCharBefore"}
+type: {"text":"</li>\n"}
+run: {"command":"indentAuto"}
+type: {"text":"<li>"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"<div class=\"\""}
+run: {"command":"goCharLeft"}
+type: {"text":"large"}
+run: {"command":"goCharRight"}
+type: {"text":">$3.39</div>\n"}
+run: {"command":"indentAuto"}
+type: {"text":"<div class=\"\""}
+run: {"command":"goCharLeft"}
+type: {"text":"small"}
+run: {"command":"goCharRight"}
+type: {"text":">Medium</div>"}
+run: {"command":"newlineAndIndent"}
+run: {"command":"delCharBefore"}
+type: {"text":"<li"}
+run: {"command":"delCharBefore","times":"2"}
+type: {"text":"/li>\n"}
+run: {"command":"indentAuto"}
+type: {"text":"<li>"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"<div class=\"\""}
+run: {"command":"goCharLeft"}
+type: {"text":"large"}
+run: {"command":"goCharRight"}
+type: {"text":">$4"}
+run: {"command":"delCharBefore"}
+type: {"text":"3.59</div>\n"}
+run: {"command":"indentAuto"}
+type: {"text":"<div class=\"\""}
+run: {"command":"goCharLeft"}
+type: {"text":"small"}
+run: {"command":"goCharRight"}
+type: {"text":">Premium</div>"}
+run: {"command":"newlineAndIndent"}
+run: {"command":"delCharBefore"}
+type: {"text":"</"}
+run: {"command":"delCharBefore"}
+type: {"text":"/li>"}
+run: {"command":"goLineUp","times":"16"}
+run: {"command":"indentAuto"}
+type: {"text":"ul{}"}
+run: {"command":"goCharLeft"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+run: {"command":"goLineUp"}
+run: {"command":"goLineEnd"}
+run: {"command":"indentAuto"}
+type: {"text":"list-style-type:none;"}
+run: {"command":"goLineDown"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":"li{}"}
+run: {"command":"goCharLeft"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+run: {"command":"goLineUp"}
+run: {"command":"goLineEnd"}
+run: {"command":"indentAuto"}
+type: {"text":"display:inline-block;\n"}
+run: {"command":"indentAuto"}
+type: {"text":"background-color: #f2f2f2;"}
+run: {"command":"newlineAndIndent"}
+run: {"command":"goLineDown"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":".large{}"}
+run: {"command":"goCharLeft"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+run: {"command":"goLineUp"}
+run: {"command":"goLineEnd"}
+run: {"command":"indentAuto"}
+type: {"text":"font-size: 30px;"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"padding: 15px 2px;"}
+run: {"command":"goLineDown"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":".small{}"}
+run: {"command":"goCharLeft"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+run: {"command":"goLineUp"}
+run: {"command":"goLineEnd"}
+run: {"command":"indentAuto"}
+type: {"text":"background-color: #888;\n"}
+run: {"command":"indentAuto"}
+type: {"text":"color: white;\n"}
+run: {"command":"indentAuto"}
+type: {"text":"fo"}
+run: {"command":"delCharBefore","times":"2"}
+type: {"text":"text-align:center;"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"text-transform: uppercase;\n"}
+run: {"command":"indentAuto"}
+type: {"text":"font-size:12px;\n"}
+run: {"command":"indentAuto"}
+type: {"text":"padding:2px 0;"}
+</textarea>
+  	<h3>Preview</h3>
+		<iframe id="preview" class="preview"></iframe>
+	</div>
+</body>
+</html>
