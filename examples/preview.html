@@ -15,6 +15,7 @@
 	  // Create simple UI to interact with movie
 	    var movie = CodeMirror.movie('code');
 	    var delay;
+	    //Function to sync the iframe and the CodeMirror editor.
 	    var thisUpdatePreview = function(){
 	        var previewFrame = document.getElementById('preview');
 	        var preview =  previewFrame.contentDocument ||  previewFrame.contentWindow.document;
