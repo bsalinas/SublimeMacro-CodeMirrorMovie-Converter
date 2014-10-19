@@ -1,0 +1,1003 @@
+[
+	{
+		"args":
+		{
+			"characters": "<ul>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "</ul>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": ""
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "<li>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "<"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "div"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " class="
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"contents": "\"$0\""
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"characters": "large"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": ">$"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "3.19</d"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "iv>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n<div"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " class="
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"contents": "\"$0\""
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"characters": "small"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": ">$"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "Regular</di"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "v>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "</li>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n<li>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "<div"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " class="
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"contents": "\"$0\""
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"characters": "large"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": ">$"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "3.39</div"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": ">"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n<div"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " class="
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"contents": "\"$0\""
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"characters": "small"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": ">"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "Medium</div>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "<li"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "/li>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n<li>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "<div"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " class="
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"contents": "\"$0\""
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"characters": "large"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": ">$4"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "3.59</div"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": ">"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n<div"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " class="
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"contents": "\"$0\""
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"characters": "small"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": ">Premium"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "</div>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "</"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "/li>"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args": null,
+		"command": "reindent"
+	},
+	{
+		"args":
+		{
+			"characters": "ul"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"contents": "{$0}"
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+		},
+		"command": "run_macro_file"
+	},
+	{
+		"args":
+		{
+			"characters": "list-style-"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "type:none;"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": "\nli"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"contents": "{$0}"
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+		},
+		"command": "run_macro_file"
+	},
+	{
+		"args":
+		{
+			"characters": "d"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "isplay:inline-b"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "lock;"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\nbackground-"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "color:"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " #f2f2f2"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": ";"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": "\n.large"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"contents": "{$0}"
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+		},
+		"command": "run_macro_file"
+	},
+	{
+		"args":
+		{
+			"characters": "font"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "-size:"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " 30px;"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "padding:"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " 15px"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " 2px;"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": "\n.small"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"contents": "{$0}"
+		},
+		"command": "insert_snippet"
+	},
+	{
+		"args":
+		{
+			"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+		},
+		"command": "run_macro_file"
+	},
+	{
+		"args":
+		{
+			"characters": "background-color"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": ":"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " #888;"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\ncolo"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "r:"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " white;"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\nfo"
+		},
+		"command": "insert"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args": null,
+		"command": "left_delete"
+	},
+	{
+		"args":
+		{
+			"characters": "text-align:ce"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "nter;"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "text-transform:"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " uppercase;"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\nfont"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "-size:"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "12px;"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "\npaddin"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": "g:2px"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " 0;"
+		},
+		"command": "insert"
+	}
+]

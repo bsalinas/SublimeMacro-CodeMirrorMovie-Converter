@@ -1,0 +1,131 @@
+type: {"text":"<ul>"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"</ul>"}
+run: {"command":"goLineUp"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"<li>"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"<div class=\"\""}
+run: {"command":"goCharLeft"}
+type: {"text":"large"}
+run: {"command":"goCharRight"}
+type: {"text":">$3.19</div>\n"}
+run: {"command":"indentAuto"}
+type: {"text":"<div class=\"\""}
+run: {"command":"goCharLeft"}
+type: {"text":"small"}
+run: {"command":"goCharRight"}
+type: {"text":">$"}
+run: {"command":"delCharBefore"}
+type: {"text":"Regular</div>"}
+run: {"command":"newlineAndIndent"}
+run: {"command":"delCharBefore"}
+type: {"text":"</li>\n"}
+run: {"command":"indentAuto"}
+type: {"text":"<li>"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"<div class=\"\""}
+run: {"command":"goCharLeft"}
+type: {"text":"large"}
+run: {"command":"goCharRight"}
+type: {"text":">$3.39</div>\n"}
+run: {"command":"indentAuto"}
+type: {"text":"<div class=\"\""}
+run: {"command":"goCharLeft"}
+type: {"text":"small"}
+run: {"command":"goCharRight"}
+type: {"text":">Medium</div>"}
+run: {"command":"newlineAndIndent"}
+run: {"command":"delCharBefore"}
+type: {"text":"<li"}
+run: {"command":"delCharBefore","times":"2"}
+type: {"text":"/li>\n"}
+run: {"command":"indentAuto"}
+type: {"text":"<li>"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"<div class=\"\""}
+run: {"command":"goCharLeft"}
+type: {"text":"large"}
+run: {"command":"goCharRight"}
+type: {"text":">$4"}
+run: {"command":"delCharBefore"}
+type: {"text":"3.59</div>\n"}
+run: {"command":"indentAuto"}
+type: {"text":"<div class=\"\""}
+run: {"command":"goCharLeft"}
+type: {"text":"small"}
+run: {"command":"goCharRight"}
+type: {"text":">Premium</div>"}
+run: {"command":"newlineAndIndent"}
+run: {"command":"delCharBefore"}
+type: {"text":"</"}
+run: {"command":"delCharBefore"}
+type: {"text":"/li>"}
+run: {"command":"goLineUp","times":"16"}
+run: {"command":"indentAuto"}
+type: {"text":"ul{}"}
+run: {"command":"goCharLeft"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+run: {"command":"goLineUp"}
+run: {"command":"goLineEnd"}
+run: {"command":"indentAuto"}
+type: {"text":"list-style-type:none;"}
+run: {"command":"goLineDown"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":"li{}"}
+run: {"command":"goCharLeft"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+run: {"command":"goLineUp"}
+run: {"command":"goLineEnd"}
+run: {"command":"indentAuto"}
+type: {"text":"display:inline-block;\n"}
+run: {"command":"indentAuto"}
+type: {"text":"background-color: #f2f2f2;"}
+run: {"command":"newlineAndIndent"}
+run: {"command":"goLineDown"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":".large{}"}
+run: {"command":"goCharLeft"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+run: {"command":"goLineUp"}
+run: {"command":"goLineEnd"}
+run: {"command":"indentAuto"}
+type: {"text":"font-size: 30px;"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"padding: 15px 2px;"}
+run: {"command":"goLineDown"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":".small{}"}
+run: {"command":"goCharLeft"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+type: {"text":"\n"}
+run: {"command":"indentAuto"}
+run: {"command":"goLineUp"}
+run: {"command":"goLineEnd"}
+run: {"command":"indentAuto"}
+type: {"text":"background-color: #888;\n"}
+run: {"command":"indentAuto"}
+type: {"text":"color: white;\n"}
+run: {"command":"indentAuto"}
+type: {"text":"fo"}
+run: {"command":"delCharBefore","times":"2"}
+type: {"text":"text-align:center;"}
+run: {"command":"newlineAndIndent"}
+type: {"text":"text-transform: uppercase;\n"}
+run: {"command":"indentAuto"}
+type: {"text":"font-size:12px;\n"}
+run: {"command":"indentAuto"}
+type: {"text":"padding:2px 0;"}
