@@ -6,7 +6,11 @@ This node.js script converts recorder SublimeText macros into [CodeMirror Movie]
 ## Usage
 To use this script, you must first record a Sublime Text macro (see the [Sublime documentation](http://docs.sublimetext.info/en/latest/extensibility/macros.html) for more information). Once you have your macro, you must save it and then point this script to that file. *Note that Sublime macros do not support navigating the document by clicking.*
 
-See the examples directory for an example macro and the resulting CodeMirror Movie script playing with live preview.
+See the examples directory for an example macro and the resulting CodeMirror Movie script playing with live preview. To run the example:
+```
+examples> node sample.js
+```
+This will create the `movie.txt` file which contains the script. You can add this to the `preview.html` where the script is currently located.
 
 ## How it Works
 Within the script, there is a `commands` object which has keys representing the name of the different Sublime commands and objects which are functions that accept the arguments. For instance, the `left_delete` function is shown below.
@@ -32,3 +36,12 @@ Sublime has many commands that are available in its macros (see [this list](http
 
 More commands can be supported by adding them to the `commands` object within the script. Pull requests with enhancements will be accepted.
 
+## Known Issues
+* Tabbing is not quite consistent between Sublime and CodeMirror. This could result in some problems if you try to use the arrow keys to go to a different line.
+* Partial implementation of several Sublime commands (particularly `move` and `move_to`
+* Missing a `package.json` file.
+
+## Potential Enhancements
+* More support for Sublime commands
+* Add a module that runs the movie from the JSON object instead of converting it to text that you have to paste into the html.
+* More testing.
